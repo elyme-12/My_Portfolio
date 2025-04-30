@@ -363,4 +363,185 @@ h3{
 
 }
 
+@media screen and (max-width: 1024px) {
+    .navi {
+        height: 60px;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
 
+    .navi li a {
+        padding: 18px 30px;
+    }
+
+    .photo {
+        width: 30vw;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile view (hides navigation bar) */
+@media screen and (max-width: 768px) {
+
+    .navi {
+        height: 60px;
+        justify-content: space-between;
+        padding: 0 15px;
+        display: none;
+        
+    }
+
+    .imageko {
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+    }
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about p{
+        font-size: 12px;
+        margin-right: 25px;
+    }
+
+    .titlee{
+        font-size: 40px;
+    }
+
+    .hi{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .photo {
+        width: 30vw;
+        top: 2rem;
+    }
+
+    .btn {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    .container{
+        display: grid;
+    }
+    .skills-box{
+        margin-left: 40px;
+        width: 80%;
+        height: 200px;   
+        margin-bottom: 30px;
+    }
+
+    .skills-info h4{
+        font-size: 20px;
+    }
+
+    .skills-info p{
+        font-size: 11px;
+    }
+    .container1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-box{
+        height: 6rem;
+        width:150px;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .social-icon a {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 2rem;
+        margin-right: 20px;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* Hide navigation completely */
+    .navi {
+        display: none;
+    }
+
+    /* Adjust section layout */
+    section {
+        padding: 15px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* Further reduce image size */
+    .imageko {
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo {
+        width: 80vw;
+        margin-top: 0.5rem;
+    }
+
+    /* Refine text sizes */
+    .titlee {
+        font-size: 35px;
+    }
+
+    .hi {
+        font-size: 25px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .btn {
+        width: 95%;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    /* Adjust grid layouts */
+    .container,
+    .container1 {
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer refinements */
+    .footer-text {
+        font-size: 12px;
+    }
+
+    .social-icon a {
+        width: 2.8rem;
+        height: 2.8rem;
+        font-size: 1.6rem;
+    }
+}

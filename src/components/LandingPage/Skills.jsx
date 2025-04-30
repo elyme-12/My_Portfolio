@@ -16,7 +16,7 @@ function Skills() {
             </div>
             <div className="skills-box">
                 <div className="skills-info">
-                    <h4>Work Experience </h4>
+                    <h4 >Work Experience </h4>
                     <p>In the future as a GRAPHIC DESIGNER
                         I'm gonna be highly skilled and imaginative graphic designer, 
                         with a solid foundation in creating and implementing visual design concepts. 
